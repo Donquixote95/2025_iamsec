@@ -1,0 +1,36 @@
+Metadata-Version: 2.4
+Name: iamsec-dtms
+Version: 0.1.0
+Summary: DTMS-like PDF to CSV converter (IoU, vertical-merged cell)
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: pdfplumber>=0.11.0
+Requires-Dist: pandas>=2.0.0
+Requires-Dist: streamlit>=1.32.0
+
+# 2025_iamsec
+
+
+---
+## ⚙️ Installation
+
+```bash
+# 1. 클론
+git clone https://github.com/Donquixote95/2025_iamsec.git
+cd 2025_iamsec
+
+# 2. 가상환경 생성 & 라이브러리 설치
+python -m venv .venv
+source .venv/bin/activate   # (맥/리눅스)
+# .venv\Scripts\activate    # (윈도우 PowerShell)
+
+pip install -r requirements.txt
+---
+
+# 설치
+
+pip install .
+
+# 실행
+
+dtms-to-csv --input input_sample.pdf --output output.csv --brigade "북극성여단"
