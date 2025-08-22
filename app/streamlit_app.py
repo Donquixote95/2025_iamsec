@@ -3,9 +3,9 @@ import streamlit as st
 import pandas as pd
 from dtms.converter import parse_pdf_to_df
 
-st.set_page_config(page_title="IMA-SEC DTMS Parser", page_icon="📄", layout="centered")
+st.set_page_config(page_title="IMASEC DTMS Parser", page_icon="📄", layout="centered")
 
-st.title("📄 IMA-SEC DTMS Parser")
+st.title("📄 IMASEC DTMS Parser")
 st.caption("PDF(주/세로 병합셀) → CSV 변환기 · IoU 기반 단일/공통 라벨 판정")
 
 with st.container():
